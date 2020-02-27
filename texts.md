@@ -23,7 +23,6 @@ The number of neurons in the human brain
 
 2.1 billion
 The number of adults with low reading proficiency - World Bank, 2017
-World Bank, 2017
 
 1,000 terabytes
 Human information storage capacity
