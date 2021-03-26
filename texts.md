@@ -1,77 +1,100 @@
-title: Learning how to learn
-subtitle: The most effective, cutting-edge learning techniques that you can apply to your daily life.
+Title: 
 
+Learning How to Learn 
 
-___________________________
-Digits block: 
+Subtitle: 
+
+The most effective, cutting-edge learning techniques that you can apply to your daily life
+
+Learn more
+
+---
+
+Description block: 
+
 The main problem with education
 
-Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. All you actually do is memorize information in order to regurgitate when you take the test. You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around, do you truly understand the subject material? All you've really learned is how to pass that one test. Once that test is over, the information in your head has outlived its usefulness.
+Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself. We often just end up drilling specific exercises and mindlessly memorizing information so that when exam time comes around, we pass the test. But once the test is over, that information has outlived its usefulness, and there's no guarantee that information will be retained. In the end, we're really just learning how to pass our tests. 
 
-Conclusion: Knowing how to study is absolutely essential, but for some reason, this point is too often overlooked. So, what can we do to remedy this?
+Here's the real question: does this approach of repetition and memorization help us truly understand the subject material? The academic consensus nowadays is that it doesn't. In fact, what's more important than any individual topic is knowing how to study, but for some reason, this point is often overlooked. So, what can we do to remedy this?
 
-There are certain techniques and exercises that can be applied to the learning process to help make it more efficient and engaging. This is exactly what we do at Practicum.
+Well, there are various techniques and exercises that can be applied to the educational process to help make it more efficient and engaging. Keep scrolling to uncover some of the secrets of effective learning.
 
+---
 
-___________________________
-Digits block:
-Facts and figures
+Digits block: 
+
+Facts and figures 
+
 On learning and the brain
 
-86 billion
+86 billion 
 The number of neurons in the human brain
 
-2.1 billion
-The number of adults with low reading proficiency - World Bank, 2017
+73% 
+The percentage of adults in the US who consider themselves lifelong learners 
+Pew Research Center
 
-1,000 terabytes
-Human information storage capacity
+1,000 terabytes 
+The information storage capacity of a human
 
-500 trillion
-The number of nerve synapses responsible for learning in an adult human
+500 trillion 
+The number of nerve synapses responsible for learning in the average adult human
 
-420 million
-The number of adults under 25 with insufficient education for finding employment
+420 million 
+The number of adults under 25 with insufficient education for finding employment 
 World Bank, 2017
 
-17 - 20 years old
-Peak learning age
+26 years old 
+The age at which Albert Einstein published his groundbreaking paper on special relativity
 
-1885
+1885 
 Development of the forgetting curve
 
-1897
+1897 
 Publication of Ivan Pavlov's research on classical conditioning
 
-___________________________
+---
+
 Feynman block:
-The Feynman Technique
-Learn without forgetting.
 
+The Feynman Technique 
 
-___________________________
-Kaufman block:
-Ten principles of rapid skill acquisition
+Learn without forgetting
+
+More →
+
+---
+
+Kaufman block: 
+
+Ten principles of rapid skill acquisition 
+
 by Josh Kaufman
 
-Choose a lovable project.
-Focus your energy on one skill at a time.
-Define your target performance level.
-Deconstruct the skill into sub-skills.
-Obtain critical tools.
-Eliminate barriers to practice.
-Make dedicated time for practice.
-Create fast feedback loops.
-Practice by the clock in short bursts.
-Emphasize quantity and speed.
+1. Choose a lovable project
+2. Focus your energy on one skill at a time
+3. Define your target performance level
+4. Deconstruct the skill into sub-skills
+5. Obtain critical tools
+6. Eliminate barriers to practice
+7. Make dedicated time for practice
+8. Create fast feedback loops
+9. Practice by the clock in short bursts
+10. Emphasize quantity and speed
 
+---
 
-___________________________
-Footer block:
+Footer block: 
+
 About Practicum by Yandex 
-Home page
-Concept
-Mentors
 
-(c) 2020 Your name
+Home page 
 
+Mission 
+
+Professions
+
+Social media
+
+(c) 2021 Your name
