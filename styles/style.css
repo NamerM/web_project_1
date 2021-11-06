@@ -137,31 +137,28 @@
 
 .digits{
   display: flex;
-  justify-content: center;
-  margin-top: 100px;
-
+  flex-direction: column;
+  align-items: center;
+  padding: 100px; /* margin or padding? */
 }
 
-.digits__section{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 60px;
-  width: 60%;
-}
-
-.digits__section-title{
+.section-title{
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-}  /* under 1st div - h1 */
-
-.digits__section-subtitle{
-  font-size: 18px; /* will change wrt brief */
 }
 
-.digits__table{
+.section-subtitle{
+  padding-top: 20px;
+  padding-bottom: 60px;
+  line-height: 34px;
+  font-size: 34px;
+  font-weight: normal;
+}
+
+.table{
   display:flex;
-  justify-content: space-between;   /* page 9 , brief-2 */
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 1100px;
   list-style-type: none;
@@ -169,21 +166,106 @@
   margin-right: auto;
 }
 
-
-.digits__table-cell{
+.table-cell{
   width: 250px;
-  margin-bottom: 60px;
-
+  /* padding or margin-bottom 60: px; */
 }
 
-.digits__table-heading{
+.table-heading{
+  line-height: 1.15;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.digits__table-text{
-  margin-top: 20px;
+.table-text{
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
+
+/* FEYMAN */
+.feynman {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 790px;
+  margin-top: 100px;  /* margin or padding top? */
+}
+
+.feynman__title {
+  width: 775px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 4;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  z-index: 3;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+    right: 48px;
+    top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2F80ED;
+  text-decoration: none;
+  z-index: 2;
+
+}
+
+.feynman__image {
+  position: absolute;
+    bottom: 0px;
+    left: 0px;
+  width: 867px;
+  height: 637px;
+  z-index: 1
+}
+
+/* KAUFMAN TRIANGLE */
+.kaufman{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.section-title_theme-dark{
+
+}
+
+.section-subtitle_theme-dark{
+
+}
+
+.kaufman_image{  /* will keep or delete wrt brief */
+
+}
+
+.table{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+
+}
+
+.kaufman__table-cell{  /* table cell has a regular width of 250px in the digits block so couldn't repeat */
+  width: 200px;
+}
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
@@ -192,3 +274,4 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
