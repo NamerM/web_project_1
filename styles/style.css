@@ -139,24 +139,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px; /* margin or padding? */
+  margin: 100px; /* margin or padding? */
 }
 
 .section-title{
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .section-subtitle{
-  padding-top: 20px;
-  padding-bottom: 60px;
   line-height: 34px;
   font-size: 34px;
   font-weight: normal;
 }
 
 .table{
+  padding-top: 60px;
+  row-gap: 60px;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -166,18 +167,18 @@
   margin-right: auto;
 }
 
-.table-cell{
+.table__cell{
   width: 250px;
-  /* padding or margin-bottom 60: px; */
+
 }
 
-.table-heading{
+.table__heading{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table-text{
+.table__text{
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -234,44 +235,145 @@
 }
 
 /* KAUFMAN TRIANGLE */
-.kaufman{
+.kaufman{  /* having margins in section classes, is it efficient_?  I moved margins from here to section-title_theme_Dark & table_theme_dark*/
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  overflow: hidden;
   background-color: #000000;
+}
+
+.section-title_theme_dark{
+  width: 60%;
+  margin-top: 90px;
   color: #ffffff;
-}
+  z-index: 3;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
 
-.section-title_theme-dark{
-
-}
-
-.section-subtitle_theme-dark{
 
 }
 
-.kaufman_image{  /* will keep or delete wrt brief */
-
+.section-subtitle_theme_dark{
+  width: 60%;
+  color: #ffffff;
+  text-align: center;
+  z-index: 2;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-.table{
-  display:flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 1100px;
 
+.table_theme_dark {
+  color: #ffffff;
+  margin-bottom: 90px;
 }
 
-.kaufman__table-cell{  /* table cell has a regular width of 250px in the digits block so couldn't repeat */
-  width: 200px;
-}
-
-/* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 3;
 }
 
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman__triangle{
+  width: 660px;
+  height: 636px;
+  position: absolute;
+    top: 0px;
+    right: -124px;
+  z-index: 0;
+}
+
+/* FOOTER  */
+.footer {
+  background-color: #000000;
+  min-height: 350px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.footer__columns{
+  color: #ffffff;
+  margin: 60px 0px 40px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column_content_copyright{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 711px;
+
+}
+
+.footer__column_content_about{
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.footer__column_content_social{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_place_footer{
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author{
+  margin: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading{
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__list{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer__column-link{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+
+.footer__social-icons{
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
