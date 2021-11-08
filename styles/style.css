@@ -141,6 +141,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 100px; /* margin or padding? */
+  margin-bottom: 100px;
 }
 
 .section-title{
