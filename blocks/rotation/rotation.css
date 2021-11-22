@@ -1,0 +1,42 @@
+
+
+  .rotation {
+    transform: rotate(-15deg);
+    animation: square 20s linear infinite forwards;
+    }
+
+
+  @keyframes square {
+    0% { transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+
+   }
+
+
+/* note to dear reviewer  I misunderstood and did 1 and 2 in animation, thinking it's rotating counterclock
+15 degrees than clockwise , this is the result enjoy  ^^
+
+  .rotation {
+    animation: square linear, square2 20s linear infinite forwards;
+    }
+
+  @keyframes square {
+    0% { transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(1360deg);
+    }
+
+   }
+
+  @keyframes square2 {
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-345deg);
+    }
+  }  */
