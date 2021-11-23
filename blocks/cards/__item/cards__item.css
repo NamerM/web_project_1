@@ -1,3 +1,9 @@
 .cards__item {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 240px;
+  border: 1px solid red;
 
 }
+
+
