@@ -2,5 +2,5 @@
   margin: 0px 40px 43px; /*top right left bottom*/
   width: 160px;
   height: 160px;
-  border-radius: 160px;
+  border-radius: 50%;  /* I also used border-radius:160px; and can't see a big difference, think due to resolution */
 }
