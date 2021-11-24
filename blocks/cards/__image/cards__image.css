@@ -2,4 +2,5 @@
   margin: 0px 40px 43px; /*top right left bottom*/
   width: 160px;
   height: 160px;
+  border-radius: 160px;
 }
