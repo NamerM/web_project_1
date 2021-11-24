@@ -1,3 +1,5 @@
 .video__iframe {
   align-content: flex-start;
+  border: none;
+  margin: 0px;
 }

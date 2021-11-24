@@ -1,5 +1,6 @@
 .kaufman {
-  margin: 90px 0px;
+  margin: 0px 0px;
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
