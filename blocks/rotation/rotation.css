@@ -1,5 +1,3 @@
-
-
   .rotation {
     transform: rotate(-15deg);
     animation: square 20s linear infinite forwards;

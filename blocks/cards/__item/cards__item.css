@@ -1,7 +1,7 @@
 .cards__item {
   margin-top: 60px;
-  margin-bottom: 60px;
-  width: 240px;
+  max-width: min-content;
+  height: auto;
 }
 
 

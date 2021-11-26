@@ -7,14 +7,3 @@
   opacity: 0.5;
 }
 
-.link-properties2 {
-  color: #2f80ed;
-  text-decoration: none;
-  transition: transform 0.5s ease-in-out;
-}
-
-.link-properties2:hover {
-  opacity: 0.6;
-  transform: translate(5px, 0px);
-}
-

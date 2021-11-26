@@ -1,5 +1,4 @@
-khan__container {
-  display:flex;
+.khan__container {
   width: 80%;
   margin: auto;
   }

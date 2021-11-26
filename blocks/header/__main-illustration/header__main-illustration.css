@@ -1,6 +1,8 @@
 .header__main-illustration {
   width: 756px;
   height: 608px;
+  object-fit: cover;
+  object-position: inherit;
   z-index: 3;
   position: absolute;
   right: 0px;
