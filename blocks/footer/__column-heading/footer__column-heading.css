@@ -3,7 +3,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  text-align: center;
+  /*text-align: center; deleted, it was asked in brief 1*/
   margin-top: 0px;
   margin-bottom: 0px;
 }

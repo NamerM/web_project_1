@@ -2,9 +2,9 @@
   margin: 0px auto;
   padding-left: 0px;
   display: flex;
-  justify-content: space-between;
+  column-gap: 100px;
   flex-wrap: wrap;
-  width: 920px;
+  width: 920px; /* hence the card items are 240px and 100px column-gap didn't apply max-width here */
   list-style-type: none;
   }
 
