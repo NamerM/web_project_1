@@ -1,13 +1,10 @@
 .link-properties {
-  color: #2f80ed;
   text-decoration: none;
   opacity: 1;
-  transition: opacity 0.8s linear 0.25s, color 0.8s linear 0.25s;
+  transition: opacity 0.8s linear 0.25s;
 }
 
 .link-properties:hover {
   cursor: pointer;
   opacity: 0.5;
-  color: black;
-  transition: opacity 0.8s linear 0.25s, color 0.8s linear 0.25s;
 }
